@@ -10,15 +10,16 @@ Module ConsoleFun
         'Console.WriteLine("Thanks!! You entered: " & userInput & ", Good Work!!")
         'Console.ReadLine() 
 
-        Dim firstNumber As Integer
-        Dim Result As Integer
+        'Dim firstNumber As Integer
+        ' Dim Result As Integer
+        'Console.WriteLine("Please Enter A Number")
+        'userInput = Console.ReadLine()
+        'firstNumber = CInt(userInput)
+        'Result = 5 + firstNumber
+        'Console.WriteLine(Result)
+        'Console.ReadLine()
 
-        Console.WriteLine("Please Enter A Number")
-        userInput = Console.ReadLine()
-        firstNumber = CInt(userInput)
-        Result = 5 + firstNumber
-        Console.WriteLine(Result)
-        Console.ReadLine()
+        Console.Beep(1000, 10000)
 
 
     End Sub
